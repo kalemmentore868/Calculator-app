@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link id="pagestyle" rel="stylesheet" href="theme1.css">
+  <title>Frontend Mentor | Calculator app</title>
+  <script type="text/javascript" src="script.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="above-answer">
+      <div class="calc">calc</div>
+      <div class="slider-div">
+       <p class="theme-label">theme</p>
+       <div>
+         <p>123</p>
+         <div class="theme-wball">
+          <div class="toggle-theme">
+            <span class="ball"></span>
+          
+            <button onclick="swapStyleSheet('theme1.css')" class="theme1"></button>
+            <button onclick="swapStyleSheet('theme2.css')" class="theme2"></button>
+            <button onclick="swapStyleSheet('theme3.css')" class="theme3"></button>
+          </div>
+          
+         </div>
+  
+       </div> 
+      </div>
+    </div>
+    <div class="answer">0</div>
+    <div class="keypad">
+      <div class="short-key num-key">7</div>
+      <div class="short-key num-key">8</div>
+      <div class="short-key num-key">9</div>
+      <div class="short-key delete-key">DEL</div>
+      <div class="short-key num-key">4</div>
+      <div class="short-key num-key">5</div>
+      <div class="short-key num-key">6</div>
+      <div class="short-key op-key">+</div>
+      <div class="short-key num-key">1</div>
+      <div class="short-key num-key">2</div>
+      <div class="short-key num-key">3</div>
+      <div class="short-key op-key">-</div>
+      <div class="short-key num-key">.</div>
+      <div class="short-key num-key">0</div>
+      <div class="short-key op-key">/</div>
+      <div class="short-key op-key">x</div>
+      <div class="long-key reset-key">RESET</div>
+      <div class="long-key equal-key">=</div>
+    </div>
+  
+  </div>
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
